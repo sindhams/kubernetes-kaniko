@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: shivakiran/nginx:v4
+        image: shivakiran/nginx:v5
         ports:
         - containerPort: 80
