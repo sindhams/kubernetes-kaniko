@@ -10,7 +10,7 @@ spec:
         image: gcr.io/kaniko-project/executor:latest
         args: ["--dockerfile=Dockerfile",
                "--context=git://github.com/sindhams/kubernetes-kaniko.git#refs/heads/master",
-               "--destination=shivakiran/nginx:v3"]
+               "--destination=shivakiran/nginx:v4"]
         volumeMounts:
         - name: kaniko-secret
           mountPath: "/kaniko/.docker"
